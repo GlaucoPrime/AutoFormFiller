@@ -1,16 +1,12 @@
-🤖 AutoFormFiller: Python Web Automation for Bulk Product Registration
-🌟 Visão Geral do Projeto
-Este projeto consiste em um bot de automação web desenvolvido em Python. O objetivo principal é automatizar o tedioso processo de cadastro em massa de produtos em um formulário online, lendo os dados de uma planilha (.csv) e simulando a interação humana (cliques, escrita e navegação) no sistema.
+🤖 AutoFormFiller
+🌟 Visão Geral
+Projeto de automação web em Python que realiza o cadastro em massa de dados em formulários online. O script lê informações de um arquivo CSV e utiliza o PyAutoGUI para simular a interação humana, incluindo login, preenchimento de campos e envio de dados.
 
-O robô realiza o login e preenche os campos do formulário para cada produto na base de dados, aumentando drasticamente a velocidade e a precisão do trabalho.
+✨ Tecnologias & Funcionalidades
+PyAutoGUI: Simulação de mouse e teclado para automação da interface gráfica (Web Automation).
 
-✨ Tecnologias Utilizadas
+Pandas: Essencial para a leitura estruturada e processamento do arquivo produtos.csv.
+
 Python: Linguagem de programação principal.
 
-pyautogui: Biblioteca essencial para simulação de comandos de mouse e teclado (automação da interface gráfica).
-
-pandas: Biblioteca utilizada para a leitura, manipulação e análise estruturada dos dados do arquivo CSV.
-
-time: Módulo nativo do Python para introduzir pausas necessárias na automação (esperar o carregamento das páginas).
-
-Sistema Web Alvo: DLP Hashtag Treinamentos - URL de demonstração para fins didáticos.
+Funcionalidade: Bulk Data Entry (Entrada de Dados em Massa), focando na eficiência e precisão no preenchimento de formulários.
